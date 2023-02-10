@@ -13,6 +13,7 @@ const Navbar = () => {
   return (
     <nav className='app__navbar'>
         <div className='app__navbar-logo'>
+            {/* Change logo to my actual name */}
             <img src={images.logo} alt="" />
         </div>
 
