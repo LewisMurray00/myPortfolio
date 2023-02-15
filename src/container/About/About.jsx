@@ -7,13 +7,13 @@ import { images } from '../../constants'
 
 const abouts = [
   {
-    title: 'Web Development',
-    description: 'I am new to web developing but learning new things quickly',
+    title: 'Frontend Development',
+    description: 'I feel have a great understanding with Frontend development',
     imgUrl: images.about01
   },
   {
     title: 'UI/UX',
-    description: 'I have an understanding of UX/UI',
+    description: 'I have an good understanding of UX/UI',
     imgUrl: images.about02
   }
 ];
@@ -22,11 +22,7 @@ const About = () => {
   return (
     <>
       <h2 className='head-text'>
-        I Know that 
-        <span>Good design</span>
-        <br />
-        means
-        <span>Good Business</span>
+        I Know that having <span>Good development</span> <br /> means <span>Good Business</span>
       </h2>
 
       <div className='app__profiles'>
