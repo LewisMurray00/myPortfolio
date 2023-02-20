@@ -1,3 +1,5 @@
+//This is an example of a higher order component
+
 import React from 'react';
 import { NavigationDots, SocialMedia } from '../components';
 
