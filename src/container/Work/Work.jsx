@@ -7,8 +7,26 @@ import './Work.scss'
 
 
 const Work = () => {
+
+  const handleWorkFilter = () => {
+    
+  }
+
   return (
-    <div>Work</div>
+    <>
+      <h2 className="head-text">My Creative <span>Portfolio</span></h2>
+
+      <div className='app__work-filter'>
+        {['Web App', 'React JS', 'Game', 'All'].map((item, index) => (
+          <div
+          key={index}
+          onClick={() => handleWorkFilter(item)}
+          >
+
+          </div>
+        ))}
+      </div>
+    </>
   )
 }
 
