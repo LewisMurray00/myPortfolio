@@ -6,7 +6,7 @@ import { AiFillEye, AiFillGithub} from 'react-icons/ai';
 import { images } from '../../constants';
 import './Work.scss'
 
-const work = [
+const project = [
   {
     title: 'firstProject',
     description: 'This is my first project',
@@ -51,7 +51,39 @@ const Work = () => {
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__work-portfolio"
       >
-        
+        {project.map((work, index) => (
+          <div className='app__work-item app__flex' key={index}>
+            <div className='app__work-img app_flex'>
+              <img src={work.imgUrl} alt={work.name} />
+
+              <motion.div
+                whileHover={{ opacity: [0, 1] }}
+                transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
+                className="app__work-hover app__flex"
+              >
+                <a href={work.projectLink} target="_blank" rel="noreferrer">
+                  
+                  <motion.div
+                    whileInView={{ scale: [0, 1]}}
+                    whileHover={{ scale: [1, 0.90] }}
+                    transition={{ duration: 0.25 }}
+                    className="app__flex"
+                  >
+                    <AiFillEye />
+                  </motion.div>
+                
+                </a>
+
+                
+
+              </motion.div>
+
+  
+
+
+            </div>
+          </div>
+        ))}
       </motion.div>
     </>
   )
