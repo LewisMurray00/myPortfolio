@@ -15,19 +15,37 @@ const project = [
     imgUrl: images.about01,
     tags: 'Web App',
     all: 'all'
+  },
+  {
+    title: 'secondProject',
+    description: 'This is my second project',
+    projectLink: 'www.netlify.com',
+    codeLink: 'www.github.com',
+    imgUrl: images.about02,
+    tags: 'Game',
+    all: 'all'
+  },
+  {
+    title: 'thirdProject',
+    description: 'This is my third project',
+    projectLink: 'www.netlify.com',
+    codeLink: 'www.github.com',
+    imgUrl: images.about03,
+    tags: 'React JS',
+    all: 'all'
   }
 ]
 
 const Work = () => {
 
-  const [activeFilter, setactiveFilter] = useState('All')
-  const [animateCard, setanimateCard] = useState({ y: 0, opacity: 1})
-  const [works, setworks] = useState([])
-  const [filterWork, setfilterWork] = useState([])
+  const [activeFilter, setActiveFilter] = useState('All')
+  const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1})
+  const [works, setWorks] = useState([])
+  const [filterWork, setFilterWork] = useState([])
 
 
   const handleWorkFilter = (item) => {
-
+   
   }
 
   return (
@@ -35,7 +53,7 @@ const Work = () => {
       <h2 className="head-text">My Creative <span>Portfolio</span></h2>
 
       <div className='app__work-filter'>
-        {['Web App', 'React JS', 'Game', 'All'].map((item, index) => (
+        {['Web App', 'React JS', 'Game'].map((item, index) => (
           <div
           key={index}
           onClick={() => handleWorkFilter(item)}
