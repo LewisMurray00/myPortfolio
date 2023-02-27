@@ -26,7 +26,10 @@ const skillsArray = [
 ]
 
 const experiencesArray = [
-
+  {
+    name: 'School of Code',
+    company: 'School of Code'
+  }
 ]
 
 const Skills = () => {
@@ -50,6 +53,29 @@ const Skills = () => {
             </motion.div>
           ))}
         </motion.div>
+
+        <motion.div className='app__skills-exp'>
+            {experiencesArray.map((experience) => (
+              <>
+                <motion.div
+                  whileInView={{ opacity: [0,1 ]}}
+                  transition={{ duration: 0.5 }}
+                  className='app__skills-exp-work'
+                  data-tip
+                  data-for={experience.name}
+                  key={experience.name}
+                >
+                  <h4 className='bold-text'>{experience.name}</h4>
+                  <p className='p-text'>{experience.company}</p>
+                </motion.div>
+                
+                <ReactTooltip>
+
+                </ReactTooltip>
+              </>
+            ))}
+        </motion.div>
+
       </div>
     </>
   )
