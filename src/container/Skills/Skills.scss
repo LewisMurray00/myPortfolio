@@ -79,3 +79,17 @@
         }
     }
 }
+
+/* Styling for experience */
+.app__skills-exp{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    @media screen and (max-width: 900px){
+        margin-top: 2rem;
+    }
+}
+
