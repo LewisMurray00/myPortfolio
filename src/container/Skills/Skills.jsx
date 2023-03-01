@@ -27,10 +27,16 @@ const skillsArray = [
 
 const experiencesArray = [
   {
-    year: '2020',
+    year: '2021',
     name: 'Frontend developer (bootcamper)',
     company: 'School of Code',
     desc: "A course i did for 24 weeks which entailed getting me to the position i am now."
+  },
+  {
+    year: '2019',
+    name: 'Labourer',
+    company: 'JW Construction',
+    desc: "My current job - started here in 2019, job role involves general labouring, building work and maintenance"
   }
 ]
 
@@ -78,8 +84,8 @@ const Skills = () => {
                   
                   <ReactTooltip
                     id={experience.name}
-                    effect="solid"
-                    arrowColor='#fff'
+                    // effect="solid"
+                    // arrowColor='#fff'
                     className="skills-tooltip"
                   >
                     {experience.desc}
