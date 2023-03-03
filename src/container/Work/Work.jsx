@@ -26,8 +26,8 @@ const project = [
     all: 'all'
   },
   {
-    title: 'My First React Website',
-    description: 'This is one of the first ever react websites i ever built',
+    title: 'React-Practice-Website',
+    description: 'This is one of the first ever react websites i ever built following me completing the SoC. It is interesting to see how far i have progressed and been abled to achieved.',
     projectLink: 'https://moonlit-biscuit-497934.netlify.app',
     codeLink: 'https://github.com/LewisMurray00/react-practice-website',
     imgUrl: images.about03,
