@@ -26,10 +26,10 @@ const project = [
     all: 'all'
   },
   {
-    title: 'thirdProject',
-    description: 'This is my third project',
-    projectLink: 'www.netlify.com',
-    codeLink: 'www.github.com',
+    title: 'My First React Website',
+    description: 'This is one of the first ever react websites i ever built',
+    projectLink: 'https://moonlit-biscuit-497934.netlify.app',
+    codeLink: 'https://github.com/LewisMurray00/react-practice-website',
     imgUrl: images.about03,
     tags: 'React JS',
     all: 'all'
