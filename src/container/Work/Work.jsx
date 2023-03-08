@@ -8,20 +8,20 @@ import './Work.scss'
 
 const project = [
   {
-    title: 'firstProject',
-    description: 'This is my first project',
-    projectLink: 'www.netlify.com',
-    codeLink: 'www.github.com',
-    imgUrl: images.about01,
+    title: 'React-Portfolio-Website',
+    description: 'This was my initial portfolio that i had a go at creating prior to the creation of this webpage',
+    projectLink: 'https://warm-alfajores-8eb297.netlify.app',
+    codeLink: 'https://github.com/LewisMurray00/react-portfolio-website',
+    imgUrl: images.react,
     tags: 'Web App',
     all: 'all'
   },
   {
-    title: 'secondProject',
-    description: 'This is my second project',
-    projectLink: 'www.netlify.com',
-    codeLink: 'www.github.com',
-    imgUrl: images.about02,
+    title: 'Pokemon-JS-Game',
+    description: 'This was more of a passion project, i always enjoyed playing Pokemon growing up and so when i was browsing different tutorials and projects, i came across a tutorial creating my very own pokemon game and so this is what became of it.',
+    projectLink: 'https://github.com/LewisMurray00/Pokemon-JS-game',
+    codeLink: 'https://github.com/LewisMurray00/Pokemon-JS-game',
+    imgUrl: images.pokemon,
     tags: 'Game',
     all: 'all'
   },
@@ -30,10 +30,20 @@ const project = [
     description: 'This is one of the first ever react websites i ever built following me completing the SoC. It is interesting to see how far i have progressed and been abled to achieved.',
     projectLink: 'https://moonlit-biscuit-497934.netlify.app',
     codeLink: 'https://github.com/LewisMurray00/react-practice-website',
-    imgUrl: images.about03,
+    imgUrl: images.react,
     tags: 'React JS',
     all: 'all'
-  }
+  },
+  {
+    title: 'Javascript_Practice_FCC',
+    description: 'This involved a series of mini projects, all made from Javascript and was a real return back to basics.',
+    projectLink: 'https://github.com/LewisMurray00/Javascript_Practice_FCC',
+    codeLink: 'https://github.com/LewisMurray00/Javascript_Practice_FCC',
+    imgUrl: images.javascript,
+    tags: 'JS',
+    all: 'all'
+  },
+
 ]
 
 const Work = () => {
@@ -53,7 +63,7 @@ const Work = () => {
       <h2 className="head-text">My Creative <span>Portfolio</span></h2>
 
       <div className='app__work-filter'>
-        {['Web App', 'React JS', 'Game'].map((item, index) => (
+        {['Web App', 'React JS', 'Javascript', 'Game'].map((item, index) => (
           <div
           key={index}
           onClick={() => handleWorkFilter(item)}

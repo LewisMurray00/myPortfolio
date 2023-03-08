@@ -8,17 +8,11 @@ import './Testimonial.scss'
 
 const testimonials = [
   {
-    name: 'Rob',
-    company: 'Spotify',
-    imgUrl: images.spotify,
-    feedback: 'He was good'
+    name: 'Gurmukh Chandan',
+    company: 'Codeweavers',
+    imgUrl: images.python,
+    feedback: 'Lewis is a hard-worker who is constantly seeking to improve his skills and knowledge, often taking on additional training and self-study to stay ahead of the curve. He has excellent communication skills, team-working skills and has demonstrated his passion for the field of software development through his projects. He is always eager to explore solutions to problems, and is not afriad to take on challenges or difficult projects.'
   },
-  {
-    name: 'Bob',
-    company: 'adidas',
-    imgUrl: images.adidas,
-    feedback: 'He was amazing'
-  }
 ]
 
 const Testimonial = () => {

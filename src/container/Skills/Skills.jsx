@@ -22,21 +22,31 @@ const skillsArray = [
   {
     name: 'React',
     imgUrl: images.react
+  },
+  {
+    name:'Sass',
+    imgUrl: images.sass
   }
 ]
 
 const experiencesArray = [
   {
-    year: '2021',
+    year: 'March 2021 - October 2021',
     name: 'Frontend developer (bootcamper)',
     company: 'School of Code',
     desc: "A course i did for 24 weeks which entailed getting me to the position i am now."
   },
   {
-    year: '2019',
+    year: '2019-Current',
     name: 'Labourer',
     company: 'JW Construction',
     desc: "My current job - started here in 2019, job role involves general labouring, building work and maintenance"
+  },
+  {
+    year: '2016-2019',
+    name: 'Kitchen Porter/Waiter',
+    company: 'The Hollybush ',
+    desc: ""
   }
 ]
 

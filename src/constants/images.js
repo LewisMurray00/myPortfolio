@@ -37,6 +37,7 @@ import spotify from '../assets/spotify.png';
 
 import lewis from '../assets/lewis.png'
 import lewis2 from '../assets/image0-PhotoRoom (1).png'
+import pokemon from '../assets/pokeball.png'
 
 export default {
   email,
@@ -74,4 +75,5 @@ export default {
   spotify,
   lewis,
   lewis2,
+  pokemon,
 };

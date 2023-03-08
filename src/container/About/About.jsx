@@ -11,13 +11,18 @@ import { AppWrap, MotionWrap } from '../../wrapper'
 const abouts = [
   {
     title: 'Frontend Development',
-    description: 'I feel have a great understanding with Frontend development',
+    description: 'I feel that my knowledge of Frontend Development consists of frequently using Javascript, HTML & CSS to create my work & projects. I have since expanded this to use frameworks such as React and other languages such as SCSS.',
     imgUrl: images.about01
   },
   {
     title: 'UI/UX',
-    description: 'I have an good understanding of UX/UI',
+    description: 'I have an good understanding of UX/UI, this involves using things such as Figma, Canva, Trello and Figjam to achieve the designs and user experience to create my applications',
     imgUrl: images.about02
+  },
+  {
+    title: 'Testing',
+    description: 'When it comes to testing, i have used Jest as a framework to use, allowing me to unit test parts of my creations and others to ensure they are working how they should be.',
+    imgUrl: images.about04
   }
 ];
 
